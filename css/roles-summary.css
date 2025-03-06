@@ -1,0 +1,33 @@
+body {
+    margin-left: 50px;
+    background: rgb(244, 246, 248);
+}
+
+#experience li {
+    padding-bottom: 5px;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        #experience {
+            width: 89%;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 870px) {
+    body {
+        #experience {
+            width: 85%;
+        }
+    }
+}
+
+
+@media (min-width: 871px) {
+    body {
+        #experience {
+            width: 80%;
+        }
+    }
+}

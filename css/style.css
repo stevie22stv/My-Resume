@@ -1,0 +1,60 @@
+body {
+    margin-left: 50px;
+    background: rgb(244, 246, 248);
+}
+
+#profile-picture {
+    border: solid grey 5px;
+}
+
+#education {
+    margin-bottom: 30px;
+}
+
+#education li {
+    padding-bottom: 5px;
+}
+
+#skills li {
+    padding-bottom: 5px;
+}
+
+#skills {
+    margin-top: 35px;
+}
+#experience {
+    margin-top: 35px;
+} 
+
+
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        #skills {
+            width: 95%;
+        }
+        #experience {
+            width: 89%;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 870px) {
+    body {
+        #skills {
+            width: 83%;
+        }
+        #experience {
+            width: 85%;
+        }
+    }
+}
+
+
+@media (min-width: 871px) {
+    #skills {
+        width: 80%;
+    }
+    #experience {
+        width: 80%;
+    }
+}
